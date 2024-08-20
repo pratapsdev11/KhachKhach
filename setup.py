@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='khach_khach',
+    name='khach_khach2.0',
     version='0.1',
     packages=find_packages(),
     install_requires=[
@@ -14,7 +14,7 @@ setup(
     description='A package for processing video frames, annotating keypoints, and more.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/your-repo-name',  # Update with your URL
+    url='https://github.com/pratapsdev11/Khach_Khach/tree/main',  # Update with your URL
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

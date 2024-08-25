@@ -4,3 +4,4 @@ from .xyn_extractor import XYNExtractor
 from .bounding_box_processor import BoundingBoxProcessor
 from .extended_array_processor import ExtendedArrayProcessor
 from .file_appender import FileAppender
+from .detectannotate import detection_annotation

@@ -21,8 +21,9 @@ single image annotaion at a time.
   check out the test folder.
 #### Installation
 
-To install KhachKhach version 0.6, use pip:   
+To install KhachKhach version 0.6 and other requiered packages , use pip:   
 ```bash
+pip install opencv-python numpy ultralytics
 pip install KhachKhach==0.6
 pip install KhachKhach
 

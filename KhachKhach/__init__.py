@@ -1,19 +1,7 @@
-from .KhachKhach import (
-    BoundingBoxProcessor,
-    DetectionAnnotation,
-    ExtendedArrayProcessor,
-    FileAppender,
-    FrameExtractor,
-    KeypointAnnotator,
-    XYNExtractor
-)
-
-__all__ = [
-    'BoundingBoxProcessor',
-    'DetectionAnnotation',
-    'ExtendedArrayProcessor',
-    'FileAppender',
-    'FrameExtractor',
-    'KeypointAnnotator',
-    'XYNExtractor',
-]
+from KhachKhach.KhachKhach import BoundingBoxProcessor
+from KhachKhach.KhachKhach import DetectionAnnotation
+from KhachKhach.KhachKhach import ExtendedArrayProcessor
+from KhachKhach.KhachKhach import FileAppender
+from KhachKhach.KhachKhach import FrameExtractor
+from KhachKhach.KhachKhach import KeypointAnnotator
+from KhachKhach.KhachKhach import XYNExtractor

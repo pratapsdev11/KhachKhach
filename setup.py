@@ -6,7 +6,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="KhachKhach",             # package name on PyPI
-    version="2.0.1",               # bump this every release
+    version="2.0.2",               # bump this every release
     packages=find_packages(),      # will auto-detect 'khachkhach' package
     include_package_data=True,
     install_requires=open("requirements.txt").read().splitlines(),

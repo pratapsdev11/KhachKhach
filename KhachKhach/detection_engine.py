@@ -192,7 +192,7 @@ class DetectionEngine:
                                             else:
                                                 x_out, y_out = x, y
                                             
-                                            v_flag = 1 if v > 0.5 else 0
+                                            v_flag = 2 if v > 0.5 else 0
                                             
                                             line_parts.extend([
                                                 f"{x_out:.6f}",
